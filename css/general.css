@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #3a393d;
+  --secondary-color: #8e8d91;
+}
+
+* {
+  color: var(--primary-color);
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgba(227,218,202,1) 0%, rgba(246,241,234,1) 51%, rgba(233,224,208,0.9837184873949579) 100%);
+}
+
+a, i {
+  transition: 500ms;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.center-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 7px 18px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #56545a;
+  color: #ffffff;
+}
