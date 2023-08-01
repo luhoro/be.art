@@ -5,7 +5,7 @@
   text-align: center;
   padding: 20px 0;
   margin: 0 20px;
-  border-bottom: 1px solid var(--secondary-color);
+  border-bottom: 1px solid var(--medium-color);
 }
 
 #header span {
@@ -24,7 +24,7 @@
   margin-right: 10px;
 }
 
-/* navbar */
+/* HEADER navbar */
 #navbar {
   padding: 10px;
   margin: 10px auto;
@@ -32,9 +32,28 @@
 
 #navbar a {
   width: fit-content;
-  color: var(--primary-color);
+  color: var(--dark-color);
 }
 
 #navbar a:hover {
-  color: var(--secondary-color);
+  color: var(--medium-color);
+}
+
+/* BANNER main image  */
+.main-image {
+  height: 25rem;
+  background-image: url('../img/g_1.jpg');
+  margin-bottom: 1.8rem;
+  position: relative;
+  box-shadow: 0 0 15px #bbbbbb;
+  border-radius: 0.25rem;
+}
+
+.main-image-info {
+  background-color: #ffffffd5;
+  padding: 1.5rem;
+  position: absolute;
+  left: 1.5rem;
+  bottom: 1.5rem;
+  border-radius: 0.125rem;
 }
