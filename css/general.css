@@ -39,3 +39,9 @@ h1 {
   background-color: var(--medium-color);
   color: #ffffff;
 }
+
+.divisor {
+  background-color: var(--medium-color);
+  height: 1px;
+  margin: 0 20px;
+}

@@ -89,8 +89,30 @@
 }
 
 .small-image-container {
-  box-shadow: 0 0 25px #bbbbbb;
+  box-shadow: 0 0 15px #bbbbbb;
   border-radius: 0.25rem;
   height: 16rem;
   margin: 0 0 1.3rem 0;
+}
+
+/* FOOTER  */
+footer i {
+  font-size: 20px;
+}
+
+#social-icons-container {
+  padding: 25px;
+}
+
+#social-icons-container div {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  margin: 20px;
+}
+
+a:hover i{
+  color: var(--dark-color);
 }
