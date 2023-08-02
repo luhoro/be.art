@@ -59,26 +59,6 @@
 }
 
 /* GALLERY  */
-#img2 {
-  background-image: url('../img/g_2.jpg');
-}
-
-#img3 {
-  background-image: url('../img/g_3.jpg');
-}
-
-#img4 {
-  background-image: url('../img/g_4.jpg');
-}
-
-#img5 {
-  background-image: url('../img/g_5.jpg');
-}
-
-#img6 {
-  background-image: url('../img/g_6.jpg');
-}
-
 #gallery-container h1 {
   text-align: center;
   margin-bottom: 3rem;
@@ -91,7 +71,7 @@
 .small-image-container {
   box-shadow: 0 0 15px #bbbbbb;
   border-radius: 0.25rem;
-  height: 16rem;
+  height: 18rem;
   margin: 0 0 1.3rem 0;
 }
 
